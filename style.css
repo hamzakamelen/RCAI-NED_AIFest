@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar {
+    height: 5em !important;
+    position: sticky !important;
+    background-color: whitesmoke;
+}
+
+#carouselExampleInterval{
+    width: 100% !important;
+    height: 100% !important;
+}
+#navbarlogo {
+    height: 4em;
+}
+
+#navbarNav {
+    justify-content: end !important;
+}
+
+#navbarNav a {
+    font-size: 22px !important;
+    margin-right: 30px !important;
+    font-weight: bold;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.Welcome {
+    height: 100% !important;
+    width: 105.5% !important;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.text-overlay h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.teams {
+    padding: 30px;
+}
+.TeamImages{
+    height: 20em;
+    width: 20em;
+    margin-left: 120px;
+}
+.Teams{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20;
+}
+.JoinTeam{
+    margin-top: 10%;
+    height: 3.5em;
+    width: 9em;
+    margin-left: 28em;
+    border: none;
+    box-shadow: yellowgreen;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+.JoinTeam:hover{
+    background-color: whitesmoke;
+}
+.CarouselImg{
+    height: 700px !important;
+}
