@@ -5,19 +5,23 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 /* Navbar  */
 .navbar {
     height: 5em !important;
     position: sticky !important;
-    background-color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-#carouselExampleInterval{
+#carouselExampleInterval {
     width: 100% !important;
     height: 100% !important;
 }
+
 #navbarlogo {
-    height: 4em;
+    height: 3em;
 }
 
 #navbarNav {
@@ -28,23 +32,26 @@
     font-size: 22px !important;
     margin-right: 30px !important;
     font-weight: bold;
+    color: whitesmoke;
 }
+
 /* Welcome Part */
 .image-container {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
-.Welcome {
+.welcome {
+    margin-top: -77px;
     height: 100% !important;
-    width: 105.5% !important;
+    width: 100%;
 }
 
 .text-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 105.5%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -58,127 +65,166 @@
     font-weight: bold;
     text-align: center;
 }
+
 /* Details */
-.Details{
+.Details {
     margin-top: 2%;
     display: flex;
     flex-direction: row;
 }
-.DetailsImg{
+
+.DetailsImg {
     width: 60%;
 }
-.DetailsHead{
+
+.DetailsHead {
     margin-left: -180%;
 }
-.DetailsPara{
-    margin-top: 2%;
+
+.DetailsPara {
+    margin-top: 3%;
+    margin-bottom: 2%;
     font-size: 19px;
 }
-.History{
+
+.History {
     margin-left: 15%;
 }
-.mxhamza{
+
+.mxhamza {
     margin-left: 10%;
 }
-.Join{
+
+.Join {
     text-decoration: none;
     color: whitesmoke;
 }
+
 /* Team Part */
-.TeamImages{
+.TeamImages {
     height: 20em;
     width: 20em;
     margin-left: 80px;
 }
-.Teams{
+
+.Teams {
     align-items: center;
     display: flex;
     flex-direction: row;
     gap: 20;
 }
-.JoinTeam{
-    margin-top: 5%;
-    height: 3.5em;
+
+.buttonsTeam {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.AboutUS {
+    height: 3em;
     width: 9em;
-    margin-left: 23em;
+    margin-left: 9.5em;
     border: none;
     box-shadow: yellowgreen;
     font-size: 23px;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: aquamarine;
 }
-.JoinTeam:hover{
+
+.AboutUS:hover {
     background-color: rgb(227, 227, 227);
 }
-.BecomeSponsor{
-    margin-top: 2%;
-    height: 3.5em;
+
+.JoinTeam {
+    height: 3em;
     width: 9em;
-    margin-left: 23em;
+    margin-left: 3.5em;
     border: none;
     box-shadow: yellowgreen;
     font-size: 23px;
     font-weight: bold;
-    border-radius: 10px;
-    background-color: aquamarine; 
+    border-radius: 5px;
+    background-color: aquamarine;
 }
-.BecomeSponsor:hover{
+
+.JoinTeam:hover {
     background-color: rgb(227, 227, 227);
 }
+
+.BecomeSponsor {
+    height: 3em;
+    width: 9em;
+    margin-left: 3.5em;
+    border: none;
+    box-shadow: yellowgreen;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+.BecomeSponsor:hover {
+    background-color: rgb(227, 227, 227);
+}
+
 /* Carousel */
-.CarouselImg{
+.CarouselImg {
     height: 700px !important;
 }
 
 /*Footer*/
-.Sponsors{
+.Sponsors {
     height: 400px;
     width: 300px;
 }
-.footer{
+
+.footer {
     margin-top: 2%;
     color: black !important;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     background-color: #e3e3ed;
     flex-direction: column;
     align-items: center;
 }
-.MainHead{
+
+.MainHead {
     margin-top: 3%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 50px;
 }
 
-.footerlink{
+.footerlink {
     padding: 10px;
     display: flex;
     justify-content: space-around;
-    
+
     margin-top: 20px;
 }
-.footerlink h1{
+
+.footerlink h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
 }
-.buttomtext{
+
+.buttomtext {
     color: grey;
     width: 70%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.buttomtext p{
+.buttomtext p {
     font-size: 13px;
 }
 
-.buttom{
-    display:flex;
+.buttom {
+    display: flex;
     justify-content: center;
     background-color: #e3e3ed;
     padding: 30px;
-    
+
 }
